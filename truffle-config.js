@@ -23,6 +23,7 @@
  * In your project root, run `$ npm install dotenv`.
  * Create .env (which should be .gitignored) and declare your MNEMONIC
  * and Infura PROJECT_ID variables inside.
+ 
  * For example, your .env file will have the following structure:
  *
  * MNEMONIC = <Your 12 phrase mnemonic>
@@ -47,6 +48,7 @@ const { MNEMONIC, PROJECT_ID } = process.env;
 const HDWalletProvider = require("@truffle/hdwallet-provider");
 
 module.exports = {
+  contracts_build_directory: ".client/src/contracts",
   /**
    * Networks define how you connect to your ethereum client and let you set the
    * defaults web3 uses to send transactions. If you don't specify one truffle

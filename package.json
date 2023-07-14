@@ -1,6 +1,13 @@
 {
+  "bin": "main.go",
+  "name": "Lottery-DAPP",
+  "author": "jimit",
+  "version": "1.0.0",
+  "license": "UNLICENCED",
   "dependencies": {
     "@truffle/hdwallet-provider": "^2.1.12",
+    "app": "^0.1.0",
+    "create-react": "^0.0.0",
     "dotenv": "^16.3.1"
   }
 }
